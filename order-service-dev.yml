@@ -2,6 +2,9 @@ spring:
   application:
     name: ORDER-SERVICE
 
+server:
+  port: 8082
+
 # Custom service URLs
 product:
   service:

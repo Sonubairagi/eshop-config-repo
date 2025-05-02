@@ -14,7 +14,7 @@ spring:
       # uri: mongodb://sonu_vairagi_mongo:Sonu@7240@localhost:27017/user_service?authSource=admin
 
 server:
-  port: 8082
+  port: 8077
 
 # Custom service URLs
 product:
