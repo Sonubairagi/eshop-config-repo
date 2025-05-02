@@ -19,7 +19,8 @@ server:
 # Custom service URLs
 product:
   service:
-    url: http://USER-SERVICE/product/v1/api/getProduct/
+    url: http://PRODUCT-SERVICE/product/v1/api/getProduct/
+
 
 #Eureka/Registry/Discovery Client Config
 eureka:
