@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+
+# Custom service URLs
+product:
+  service:
+    url: http://PRODUCT-SERVICE/product/v1/api/getProduct/
