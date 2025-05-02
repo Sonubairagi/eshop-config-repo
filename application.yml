@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: user_service
+      username: sonu_vairagi_mongo
+      password: Sonu@7240
+      authentication-database: admin
+      # Alternatively, you can use the full URI:
+      # uri: mongodb://sonu_vairagi_mongo:Sonu@7240@localhost:27017/user_service?authSource=admin
+
+server:
+  port: 8082
+
+# Custom service URLs
+product:
+  service:
+    url: http://PRODUCT-SERVICE/product/v1/api/getProduct/
+
+
+#Eureka/Registry/Discovery Client Config
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
