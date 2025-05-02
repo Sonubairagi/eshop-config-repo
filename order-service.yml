@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+
   data:
     mongodb:
       host: localhost
