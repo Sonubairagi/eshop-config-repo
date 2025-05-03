@@ -1,6 +1,8 @@
+#spring application config
 spring:
-  application:
-    name: ESHOP-APPLICATION
+  #kafka Config - import kafka config
+  config:
+    import: "optional:kafka.yml"
 
 #Eureka/Registry/Discovery Client Config
 eureka:

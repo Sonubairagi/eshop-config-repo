@@ -1,6 +1,6 @@
 #server config
 server:
-  port: 8082
+  port: 8084
 
 #spring application config
 spring:
@@ -10,7 +10,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: order-service
+      database: payment-service
       username: sonu_vairagi_mongo
       password: Sonu@7240
       authentication-database: admin
